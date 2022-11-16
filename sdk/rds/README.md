@@ -31,7 +31,7 @@ your project, add the following to your **Cargo.toml** file:
 ```toml
 [dependencies]
 aws-config = "0.51.0"
-aws-sdk-rds = "0.21.0"
+aws-sdk-rds = "0.0.0-local"
 tokio = { version = "1", features = ["full"] }
 ```
 
